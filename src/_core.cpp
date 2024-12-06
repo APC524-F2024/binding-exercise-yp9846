@@ -2,7 +2,7 @@
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
 
-#include "integrator.hpp"  // Include your class definition
+#include "integrator.hpp" 
 
 namespace py = pybind11;
 
