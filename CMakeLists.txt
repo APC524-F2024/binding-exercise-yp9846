@@ -16,7 +16,7 @@ if(DEFINED SKBUILD)
   find_package(pybind11 REQUIRED)
 
   pybind11_add_module(
-    _core  # Python module name
+    _core 
     src/_core.cpp
     src/integrator.hpp
   )
